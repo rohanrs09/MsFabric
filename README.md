@@ -72,9 +72,3 @@ Based on that inference, this notebook likely:
 4. Run the pipeline — this lands Parquet files in the Bronze folder.
 5. Open `ecom_bronze_to_silver.ipynb` in a Fabric notebook, attach the Lakehouse, and run the cells to produce the Silver output.
 
-## Suggested Next Steps
-
-- Add a Gold-layer notebook (aggregations/star schema) to complete the Medallion architecture.
-- Add a `.gitignore` (exclude `.DS_Store`, sample Parquet outputs).
-- Remove the duplicate notebook file.
-- Document the exact Silver transformation logic once verified from the notebook.
